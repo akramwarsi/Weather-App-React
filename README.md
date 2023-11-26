@@ -42,3 +42,15 @@ A weather app built with React and Redux. It uses weather recommedation API to f
 - Error handling for invalid API key (console error for now)
 - The application provides weather data summary for any city or anything provided in the city input, it does not check for the original city validations.
 
+![image](https://github.com/akramwarsi/Weather-App-React/assets/50487227/93859934-45cd-4089-bbee-424e780597f0)
+![image](https://github.com/akramwarsi/Weather-App-React/assets/50487227/9ae75f8b-3957-4fe6-8748-8b65d7d3d7d5)
+![image](https://github.com/akramwarsi/Weather-App-React/assets/50487227/1564bef8-d9b8-49b7-8071-32358da010dd)
+![image](https://github.com/akramwarsi/Weather-App-React/assets/50487227/880fea2b-6321-406a-ac0e-d97aca12e69c)
+![image](https://github.com/akramwarsi/Weather-App-React/assets/50487227/1cd1b63f-072f-4b77-bd90-ae9618c3276f)
+![image](https://github.com/akramwarsi/Weather-App-React/assets/50487227/2e1c908e-b72a-41e9-8349-327f6f6e0d3e)
+
+
+
+
+
+
