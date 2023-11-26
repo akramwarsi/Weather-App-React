@@ -1,0 +1,218 @@
+.root {
+  background: url("../assets/night-sky.jpg") no-repeat center center fixed;
+  height: 100vh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.01);
+  }
+}
+
+.sidebar {
+  padding: 100px 60px 60px;
+  color: white;
+  height: 100vh;
+  backdrop-filter: blur(60px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+
+.current-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.city-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.city-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: transparent;
+  border: none;
+  color: white;
+
+  a {
+    font-size: 19px;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+}
+
+.city-link__button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: white;
+  width: auto;
+  font-size: 20px;
+}
+
+.search-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 16px;
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  flex: 1;
+  height: 36px;
+  padding: 10px;
+  outline: none;
+  color: white;
+  opacity: 0.7;
+
+  &:focus {
+    opacity: 1;
+  }
+
+  &::placeholder {
+    color: white;
+  }
+}
+
+.summary {
+  display: flex;
+  clear: both;
+  align-items: flex-start;
+  gap: 16px;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  margin: auto auto 123px 96px;
+  flex-wrap: wrap;
+  backdrop-filter: blur(50px);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2%;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 16px;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  margin: 70px auto 20px 96px;
+  left: 0;
+  flex-wrap: wrap;
+}
+
+.recommendation {
+  font-weight: 350;
+  display: flex;
+  clear: both;
+  margin-bottom: 10px;
+  padding: 2%;
+  gap: 10px;
+  color: black;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.temperature {
+  font-size: 120px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.weather-kind {
+  color: rgb(220, 81, 171);
+  font-weight: 350;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+.synopsis {
+  color: white;
+  font-weight: 350;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+.name {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.search-button {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: round($number: 1);
+  border-radius: 5;
+  border-color: aliceblue;
+  cursor: pointer;
+  opacity: 1;
+  width: 120px;
+  padding: 10px;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+.close-button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1;
+}
+
+@media screen and (min-width: 1440px) {
+  .temperature {
+    font-size: 180px;
+  }
+  .name {
+    font-size: 80px;
+  }
+  .timezone {
+    font-size: 20px;
+  }
+}

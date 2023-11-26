@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# misc
+.idea
+*.iml
+.DS_Store
+.env
+.env.*
