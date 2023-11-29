@@ -1,6 +1,6 @@
-# Project: Generative AI - Full Stack Development Task For Rak Bank
+# Basic React Js App for Weather recommendation
 
-Weather outfit and activity recommendation App with Generative AI synopsis.
+Weather outfit and activity recommendation with comical weather synopsis using "Generative AI"
 
 ### 📖 Description:
 A weather app built with React and Redux. It uses weather recommedation API to fetch weather data and recommendation for the searched city. The app also displays the weather for the default location if user's geolocation is enabled. The list of searched cities is stored in the Redux store and displayed in the sidebar.
@@ -9,7 +9,7 @@ A weather app built with React and Redux. It uses weather recommedation API to f
 - Search weather by city name
 - Display the list of searched cities
 - Display weather for the selected location
-- Display weather for the default location (Dubai, Abu Dhabi, Karachi etc)
+- Display weather for the default location (Dubai, Abu Dhabi etc)
 - Remove an item from the list
 
 ![DEMO]()
